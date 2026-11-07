@@ -1,0 +1,48 @@
+{
+  "data_root": "data",
+  "result_dir": "results",
+  "cache_dir": ".cache",
+  "img_size": 64,
+  "n_classes": 43,
+  "split_seed": 42,
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "val_folds": 5,
+  "batch_size": 128,
+  "mlp_epochs": 15,
+  "cnn_epochs": 25,
+  "cnn_patience": 6,
+  "under_epochs": 4,
+  "over_epochs": 20,
+  "alex_epochs": 20,
+  "alex_patience": 6,
+  "ft_epochs": 8,
+  "alex_size": 224,
+  "smoke": false,
+  "device": "mps",
+  "python": "3.13.7",
+  "versions": {
+    "torch": "2.8.0",
+    "torchvision": "0.23.0",
+    "numpy": "2.3.3",
+    "pandas": "2.3.3",
+    "scikit-learn": "1.8.0",
+    "matplotlib": "3.10.8",
+    "seaborn": "0.13.2",
+    "pillow": "13.0.0"
+  },
+  "best_pool": "max",
+  "train_mean": [
+    0.3424680829048157,
+    0.3131377100944519,
+    0.32149070501327515
+  ],
+  "train_std": [
+    0.27617841958999634,
+    0.26435109972953796,
+    0.2702108323574066
+  ]
+}
